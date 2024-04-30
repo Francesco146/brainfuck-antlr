@@ -1,6 +1,4 @@
 import java.io.IOException;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
 
 public class BrainfuckInterpreter extends BrainfuckBaseVisitor<Byte> {
     private final int LENGTH = 65443;
