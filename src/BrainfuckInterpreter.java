@@ -6,7 +6,6 @@ public class BrainfuckInterpreter extends BrainfuckBaseVisitor<Byte> {
     private final int LENGTH = 65443;
     private final byte[] tape = new byte[LENGTH];
     private int dataPointer = 0;
-    private static Scanner IN = new Scanner(System.in);
 
     @Override
     public Byte visitMain(BrainfuckParser.MainContext ctx) {
